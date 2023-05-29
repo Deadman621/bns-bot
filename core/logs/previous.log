@@ -1,0 +1,8 @@
+[2023-05-30 02:34:54] [INFO] red: Begin updating guild configs to support multiple mod/admin roles
+[2023-05-30 02:34:54] [INFO] red: Done updating guild configs to support multiple mod/admin roles
+[2023-05-30 02:34:54] [INFO] red: Moving shared API tokens to a custom group
+[2023-05-30 02:34:54] [INFO] red: Migrating help menus to enum values
+[2023-05-30 02:34:54] [INFO] discord.client: logging in using static token
+[2023-05-30 02:34:57] [INFO] red: No packages were loaded.
+[2023-05-30 02:34:58] [INFO] red.main: Shutting down with exit code: 78 (CONFIGURATION_ERROR)
+[2023-05-30 02:34:58] [INFO] red.main: Please wait, cleaning up a bit more
