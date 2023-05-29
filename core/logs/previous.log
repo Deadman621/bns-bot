@@ -1,4 +1,0 @@
-[2023-05-30 02:35:39] [INFO] discord.client: logging in using static token
-[2023-05-30 02:35:40] [INFO] red: No packages were loaded.
-[2023-05-30 02:35:43] [INFO] discord.gateway: Shard ID 0 has connected to Gateway (Session ID: 8edc011bed1f1c85b61b8a168a2b0234).
-[2023-05-30 02:35:43] [INFO] red: Connected to Discord. Getting ready...
