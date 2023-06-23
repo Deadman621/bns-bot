@@ -1,11 +1,11 @@
 import discord
 from redbot.core import commands, app_commands
 
-class CurrentCog(commands.Cog):
+class ModpackCog(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @app_commands.command()
+    @app_commands.command(description="Modify the /modpack command.")
     @app_commands.describe(modpack="Add modpack", download_link="Download link of the modpack", showcase_video="Showcase Video:")
     @commands.has_any_role("Admin", "Moderator")
     async def modify(self, interaction: discord.Interaction, modpack: str, download_link: str, showcase_video: str):
@@ -17,8 +17,8 @@ class CurrentCog(commands.Cog):
         global show
         show = showcase_video
 
-    @app_commands.command()
-    async def current(self, interaction: discord.Interaction):
+    @app_commands.command(description="Shows which modpack is currently running.")
+    async def modpack(self, interaction: discord.Interaction):
         try:    
             embed = discord.Embed(
                 title='MODPACK',
