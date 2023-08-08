@@ -6,7 +6,7 @@ class ModpackCog(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.modpack_info = None
-
+ 
     modify = app_commands.Group(name="modify", description="Modify /modpack command")
  
     @modify.command(name="add", description="Add modpack & relating information to /modpack")
